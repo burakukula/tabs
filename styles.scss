@@ -1,0 +1,72 @@
+.tabs,
+.tiles {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  div {
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  &.level-0 {
+    .tile.active {
+      background-color: #eee;
+    }
+  }
+  &.level-1 {
+    .tile.active {
+      background-color: #ed7811;
+    }
+  }
+  &.level-2 {
+    .tile.active {
+      background-color: blue;
+    }
+  }
+  &.level-3 {
+    .tile.active {
+      background-color: #000;
+    }
+  }
+}
+.tabs {
+  div {
+    border: 1px solid #eee;
+    a {
+      display: inline-block;
+      width: 100%;
+      padding: 30px 0;
+    }
+  }
+  &.level-0 {
+    .tab.active {
+      background-color: #eee;
+    }
+  }
+  &.level-1 {
+    .tab.active {
+      background-color: #ed7811;
+    }
+  }
+  &.level-2 {
+    .tab.active {
+      background-color: blue;
+    }
+  }
+  &.level-3 {
+    .tab.active {
+      background-color: #000;
+    }
+  }
+}
+.tiles {
+  div {
+    border: 1px solid #eee;
+    padding: 30px 0;
+  }
+}
+.tab {
+  text-decoration: none;
+  color: #222;
+}

@@ -1,2 +1,7 @@
 # ignore node modules
 node_modules/
+.sass-cache/
+Gruntfile.js
+package.json
+styles.scss
+styles.css.map
